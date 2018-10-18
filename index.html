@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>台中市公車動態資訊</title>
+    <link rel="stylesheet" href="./stylesheets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stylesheets/all.css">
+</head>
+
+<body>
+<!--     <div class="header">
+        <button id="quickstart-sign-in" class="btn btn-primary" style="display:block;">登入</button>
+        <button id="quickstart-sign-out" class="btn btn-primary" style="display:none;">登出</button>
+        <span id="fbName"></span>
+        <br>
+        <h1>台中市公車動態資訊</h1>
+        <div class="address">台中市台灣大道二段2號</div>
+        <div class="selectBus">請選擇公車</div>
+        <input type="text" class="searchBus" placeholder="請搜尋公車路線...">
+    </div> -->
+<!--     <div class="content">
+        <ul class="favorite"></ul>
+        <ul class="list"></ul>
+    </div> -->
+    <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyANyOM6tvAcm7La_W6SnDMjzTKrQ-oBLxk",
+            authDomain: "project-7b221.firebaseapp.com",
+            databaseURL: "https://project-7b221.firebaseio.com",
+            projectId: "project-7b221",
+            storageBucket: "project-7b221.appspot.com",
+            messagingSenderId: "831645628023"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script src="js/all.clare.js"></script>
+    <script>
+        new IndexView();
+    </script>
+</body>
+
+</html>
